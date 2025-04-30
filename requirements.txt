@@ -1,0 +1,9 @@
+streamlit
+openai
+whisper
+torch
+sympy
+speechrecognition
+pyttsx3
+langchain
+transformers
