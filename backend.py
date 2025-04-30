@@ -16,7 +16,7 @@ tts = pyttsx3.init()
 
 # OpenAI GPT-4 API Key (replace with your API key)
 OPENAI_API_KEY = "Generate API KEy"
-llm = OpenAI(api_key=OPENAI_API_KEY, model="gpt-4")
+llm = OpenAI(api_key=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, model="gpt-4")
 
 # LangChain prompt template for solving math problems
 math_prompt = PromptTemplate(
