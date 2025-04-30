@@ -6,4 +6,5 @@ sympy
 speechrecognition
 pyttsx3
 langchain
+langchain-community
 transformers
