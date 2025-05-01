@@ -15,8 +15,8 @@ model = whisper.load_model("base")
 tts = pyttsx3.init()
 
 # OpenAI GPT-4 API Key (replace with your API key)
-OPENAI_API_KEY = "Generate API KEy"
-llm = OpenAI(api_key=OPENAI_API_KEY, model="gpt-4")
+llm = OpenAI(api_key=st.secrets["OPENAI_API_KEY"], model="gpt-4")
+
 
 # LangChain prompt template for solving math problems
 math_prompt = PromptTemplate(
